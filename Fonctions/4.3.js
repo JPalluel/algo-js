@@ -11,6 +11,7 @@ let n = new Number (readlineSync.question("how many random numbers do you want? 
 
 function rand10(){
     return(Math.floor(Math.random()* 10)+1);
+    console.log('hello')
 }
 
 function multiRand(n){
