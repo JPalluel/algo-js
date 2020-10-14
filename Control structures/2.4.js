@@ -1,4 +1,4 @@
-const realineSync = require("readline-sync");
+const readlineSync = require("readline-sync");
 
 
 let i =0;
