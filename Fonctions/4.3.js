@@ -7,11 +7,10 @@ then display that same number of random numbers.*/
 
 const readlineSync = require("readline-sync");
 
-let n = new Number (readlineSync.question("how many random numbers do you want? "));
+let inputNb = new Number (readlineSync.question("how many random numbers do you want? "));
 
 function rand10(){
     return(Math.floor(Math.random()* 10)+1);
-    console.log('hello')
 }
 
 function multiRand(n){
@@ -21,9 +20,9 @@ function multiRand(n){
     }
     return arrayOfNb;
 }
-console.log(multiRand(n));
+console.log(multiRand(inputNb));
 
-/* function multiRand takes as parameter the number n given in input.
-an empty array then a for loop are created, taking the n as the number of time it should loop.
-each time's it loops a random number is "pushed" inside the array created before
-=> so this array will have n randoms numbers.*/
+/* function multiRand takes as parameter a n number (here given in input).
+it creates an empty array then a for loop, taking the n as the number of time it should loop.
+each time it loops, a random number is "pushed" inside the array created before
+=> so this array will have n randoms numbers stocked inside*/
