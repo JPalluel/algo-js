@@ -63,4 +63,6 @@ function displayCollision(arrayOfRectangles){
 
 
 let lotOfRect = generate10Rectangle();
+
 displayCollision(lotOfRect);
+
