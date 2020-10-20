@@ -30,4 +30,4 @@ circle1.move(2,2);
 console.log(circle1)
 
 let circle2 = new Circle ( 4, 2, 7);
-console.log(circle2);
+console.log(circle2.surface);

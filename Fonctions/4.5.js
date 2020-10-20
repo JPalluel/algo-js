@@ -9,7 +9,7 @@ function calcDistance(pointA, pointB){
     return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
 }
 
-let a = { x : 1 , y : 1};
+let a = { x : 1 , y : 1}; // these variables are objects with 2 keys : x and y an their values;
 let b = { x : 2 , y : 2};
 
 console.log(calcDistance( a, b));
